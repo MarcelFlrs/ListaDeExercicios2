@@ -3,7 +3,6 @@ public class Exercicio02 {
         int vetor[] = new int[Prompt.lerInteiro("Digite o tamanho do vetor: ")];
 
         System.out.println("Digite 5 números: \n");
-        int soma = 0;
         for (int i = 0; i < vetor.length; i++) {
             vetor[i] = Prompt.lerInteiro((i+1) + "° número:");
         }
