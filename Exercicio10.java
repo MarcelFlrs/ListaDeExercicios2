@@ -16,7 +16,7 @@ public class Exercicio10 {
         for (int i = 0; i < A.length; i++) {
             System.out.print(" "+A[i]);
         }
-        System.out.println("\n\nValores B do vetor A, mas invertidos: ");
+        System.out.println("\nValores B do vetor A, mas invertidos: ");
 
         for (int i = 0; i < A.length; i++) {
             System.out.print(" "+B[i]);
